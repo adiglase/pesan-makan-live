@@ -1,0 +1,27 @@
+main {
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff6c44;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fc5b2f;
+}
