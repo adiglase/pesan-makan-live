@@ -7,7 +7,7 @@ const Head = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  min-height: 60px;
   padding: 0 20px;
   background-color: #ff6c44;
   color: #fff;
